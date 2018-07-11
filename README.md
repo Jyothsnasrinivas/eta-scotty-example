@@ -15,6 +15,8 @@
   ```
 
 2) Open `http://localhost:3000` in your favourite browser.
+
+
 3) To play around with type in any sequence of characters at the end of the url
 
-Example: `http://localhost:3000/haskell-on-the-jvm`
+   Example: `http://localhost:3000/haskell-on-the-jvm`
