@@ -12,9 +12,6 @@ import Text.Blaze.Html.Renderer.Text
 main = scotty 3000 $
     get "/:word" $ do
         message :: Text <- param "word"
-
-        -- html [$(embedStringFile "./resources/index.html")]
-         -- mconcat ["<h2>Eta is running", beam, " Scotty!</h2>"]
         html $ renderHtml [shamlet|
          <!DOCTYPE html>
          <html>
